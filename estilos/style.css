@@ -25,7 +25,7 @@ body {
 main {
     position: relative;
     height: 100vh;
-    box-shadow: inset 5px 0px 100px black;
+    box-shadow: inset 5px 0px 100px rgba(0, 0, 0, 0.425);
     overflow: hidden;
 
 }
@@ -50,4 +50,28 @@ iframe#tela {
     width: 268px;
     height: 470px;
 }
+
+section#redes-sociais {
+    text-align: right;
+    
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    
+
+
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.644);
+    transform: scale(1.1);
+    transform: translate(-3px, -3px);
+    transition: transform 0.2s, border 0.3s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.627);
+}
+
 
